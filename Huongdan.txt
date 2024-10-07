@@ -1,0 +1,4 @@
+khởi tạo dự án: npm init -y
+install package: npm i express mongoose dotenv
+thay vì dùng required ta dùng import thì trong packagejson: type: "module"
+ko cần load lại khi save: npm i nodemon --save-dev 
