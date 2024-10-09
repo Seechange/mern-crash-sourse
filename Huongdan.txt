@@ -2,3 +2,6 @@ khởi tạo dự án: npm init -y
 install package: npm i express mongoose dotenv
 thay vì dùng required ta dùng import thì trong packagejson: type: "module"
 ko cần load lại khi save: npm i nodemon --save-dev 
+cd frontend : npm create vite@latest .
+use chakra ui. với bản vite: npm i @chakra-ui/react @emotion/react @emotion/styled framer-motion
+
