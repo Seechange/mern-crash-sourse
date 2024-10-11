@@ -8,7 +8,7 @@ import { IoInvertModeOutline } from "react-icons/io5";
 const Navbar = () => {
     const { colorMode, toggleColorMode } = useColorMode()
     return (
-        <Container maxW={"1140px"} px={4} bg={useColorModeValue("gray.100", "gray.900")}>
+        <Container maxW={"1140px"} px={4}>
             <Flex
                 h={16}
                 alignItems={'center'}
